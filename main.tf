@@ -7,7 +7,7 @@ provider "okta" {
 }
 
 ### Group Block ###
-resource "okta_group" "test11" {
+resource "okta_group" "new" {
  name        = var.okta_group_name
  description = var.okta_group_description
 }
