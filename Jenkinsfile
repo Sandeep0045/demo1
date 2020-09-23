@@ -23,7 +23,9 @@
 
     stage('TF Apply') {
       steps {
-          sh 'terraform apply -input=false myplan'
+          sh """
+              terraform apply -input=false -var okta_group_name=${params.groupname}
+          """
         }
       }
   }
