@@ -1,9 +1,6 @@
  pipeline {
 
   agent any
-  environment {
-       TF_VAR_okta_group_name="${DATA}"   
-  }
   parameters {
   string defaultValue: '', description: 'This parameter is used to create new group', name: 'Group', trim: false
 }
