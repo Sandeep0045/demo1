@@ -5,5 +5,5 @@ variable "okta_group_description" {
 }
 
 variable "okta_api_token" {
-  default = "000uJkL29SALbf44bW3_sgngtQFb7cqFu4cnXmHgFb"
+  default = "00Knd4sEw-r5gqNAAhBLhZZGkX_FVKlCTviGR9q0-M"
 }
