@@ -5,9 +5,7 @@
        TF_VAR_okta_group_name="${DATA}"   
   }
   parameters {
-      string(name: 'okta_group_name', )
-
-  }
+        string(name: 'DATA', defaultValue: 'xxx',)
   stages {
 
     stage('TF Plan') {
