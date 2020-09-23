@@ -3,7 +3,7 @@
   agent any
      
   parameters {
-      string(oktagroupname:  )
+      string(oktagroupname: 'okta_group_name', )
 
   }
   stages {
