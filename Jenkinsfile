@@ -6,7 +6,7 @@
 }
 
   parameters {
-      string(name: 'okta_group_name' defaultValue: 'bp', )
+      string(name: 'okta_group_name' ,  )
 
   }
   stages {
