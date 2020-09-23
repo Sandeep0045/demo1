@@ -6,8 +6,8 @@
     stage('TF Plan') {
       steps {
           sh 'terraform init'
-       sh ‘’’
-       terraform plan -var “okta_group_name=${params.group}”
+           sh ‘’’
+              terraform plan -var “okta_group_name=${params.group}”
 ‘’’
         }
       }
