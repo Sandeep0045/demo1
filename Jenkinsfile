@@ -1,9 +1,12 @@
  pipeline {
 
   agent any
+  environment {
+     TF_VAR_okta_group_name="var.okta_group_name"
+  }
      
   parameters {
-      string(name: '', )
+      string(name: 'okta_group_name', )
 
   }
   stages {
