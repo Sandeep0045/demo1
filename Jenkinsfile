@@ -2,7 +2,7 @@
 
   agent any
   parameters {
-      string(defaultValue: "", description: 'This is a parameter', name: 'PARAMETER01')
+      string(defaultValue: "group", description: 'This is a parameter', name: 'PARAMETER01')
 
 }
   stages {
