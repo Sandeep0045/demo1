@@ -1,10 +1,6 @@
  pipeline {
 
   agent any
-  parameters {
-      string(defaultValue: "", description: 'This is a parameter', name: 'oktagroupname')
-
-}
   stages {
 
     stage('TF Plan') {
