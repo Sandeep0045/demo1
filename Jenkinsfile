@@ -2,7 +2,7 @@
 
   agent any
   parameters {
-      string defaultValue: '', description: 'This parameter is used to create new group', name: 'Group', trim: false
+      string(name: 'group', defaultValue: '')
 }
   stages {
 
