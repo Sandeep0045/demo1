@@ -3,7 +3,7 @@
   agent any
      
   parameters {
-      string(TF_VAR_okta_group_name: '', )
+      string(name: '', )
 
   }
   stages {
