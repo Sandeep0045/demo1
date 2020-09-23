@@ -6,7 +6,7 @@
 }
 
   parameters {
-      string(name: )
+      string(name: '', )
 
   }
   stages {
