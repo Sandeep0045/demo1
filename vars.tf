@@ -1,6 +1,5 @@
-variable "okta_group_name" {
-  default = "test11111"
-}
+variable "okta_group_name" {}
+
 variable "okta_group_description" {
   default = "my xyz group"
 }
