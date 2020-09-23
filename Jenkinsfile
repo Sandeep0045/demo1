@@ -24,7 +24,7 @@
     stage('TF Apply') {
       steps {
           sh """
-              terraform apply -input=false -var okta_group_name=${params.groupname}
+              terraform apply -input=false -auto-approve -var okta_group_name=${params.groupname}
           """
         }
       }
