@@ -9,7 +9,6 @@
        sh ‘’’
        terraform plan -var “okta_group_name=${params.group}”
 ‘’’
-       sh 'terraform plan -out myplan'
         }
       }
 
